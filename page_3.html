@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оверлорд</title>
+    <style>
+        /* Вставка фона для всей страницы */
+        body {
+            font-family: Arial, sans-serif;
+            color: red;
+            background-image: url('https://img.ixbt.site/live/images/original/17/17/35/2021/07/27/05d6045544.jpg'); /* Замените на ссылку на ваш фон */
+            background-size: cover; /* Фон будет растянут на весь экран */
+            background-position: center; /* Фон по центру */
+            height: 100vh; /* Страница будет занимать 100% высоты окна */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Центрирование контента по вертикали */
+            align-items: center; /* Горизонтальное центрирование */
+            padding: 20px;
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Контейнер для текста и кнопок */
+        .content-container {
+            max-width: 800px; /* Ограничиваем максимальную ширину */
+            width: 100%; /* Ширина по размеру экрана */
+            background-color: rgba(0, 0, 0, 0.7); /* Темный фон для лучшей читаемости */
+            color: white; /* Белый текст */
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 120px; /* Немного отступаем, чтобы кнопки не закрывались */
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        /* Текст */
+        p {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        /* Контейнер для кнопок */
+        .button-container {
+            position: fixed; /* Фиксируем кнопки внизу страницы */
+            bottom: 20px; /* Отступ от нижней части экрана */
+            display: flex;
+            justify-content: center; /* Центрируем кнопки */
+            width: 100%; /* Ширина 100% */
+        }
+
+        /* Стили для ссылок (кнопок) */
+        a {
+            font-size: 1.5em;
+            color: #ff9f00; /* Цвет текста кнопки */
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.7); /* Цвет фона кнопки */
+            padding: 15px 30px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            width: 45%; /* Ширина каждой кнопки */
+            text-align: center;
+            margin: 0 10px; /* Добавляем отступы между кнопками */
+        }
+
+        /* Эффект при наведении */
+        a:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <!-- Контейнер для текста -->
+    <div class="content-container">
+        <h1>Мир достигнут</h1>
+        <p>Враги признали вашу силу и мир был заключён. Но… как будет развиваться ситуация дальше?</p>
+
+        <p>1. Пустить своих людей к этим землям.</p>
+        <p>2. Поверить в долгосрочную безопасность региона.</p>
+    </div>
+
+    <!-- Контейнер для кнопок -->
+    <div class="button-container">
+        <a href="page_4.html">Пустить своих людей</a>
+        <a href="page_5.html">Выполнить роль наблюдателя</a>
+    </div>
+</body>
+</html>
